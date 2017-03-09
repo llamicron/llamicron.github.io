@@ -1,13 +1,12 @@
 languageCode = "en-us"
-title = "Aerial"
+title = "Luke Sweeney"
 baseurl = "https://llamicron.github.io/lukesweeney/"
 theme = "aerial"
-publishDir = "docs"
 
 
 [params]
   name = "Luke Sweeney"
-  about = "About me"
+  about = "Developer"
   copyright = "MIT"
   # Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
@@ -26,4 +25,9 @@ publishDir = "docs"
 [[params.social]]
   medium = "Email"
   icon = "envelope-o"
-  link = "#"
+  link = "mailto:luke@thesweeneys.org"
+
+[[params.social]]
+  medium = "Blog"
+  icon = "fa-th"
+  link = 'https://llamicron.wordpress.com'
