@@ -29,5 +29,5 @@ theme = "aerial"
 
 [[params.social]]
   medium = "Blog"
-  icon = "fa-th"
+  icon = "envelope-o"
   link = 'https://llamicron.wordpress.com'
