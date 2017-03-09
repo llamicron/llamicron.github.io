@@ -4,6 +4,7 @@ baseurl = "http://example.org/"
 theme = "aerial"
 publishDir = "docs"
 
+
 [params]
   name = "Luke Sweeney"
   about = "About me"
