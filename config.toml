@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Luke Sweeney"
-baseurl = "https://llamicron.github.io/lukesweeney/"
+baseurl = "https://llamicron.github.io/"
 theme = "aerial"
 
 
@@ -15,7 +15,7 @@ theme = "aerial"
 [[params.social]]
   medium = "Twitter"
   icon = "twitter"
-  link = "https://twitter.com/SelectiveAlso"
+  link = "https://twitter.com/llamicron"
 
 [[params.social]]
   medium = "Github"
@@ -25,4 +25,4 @@ theme = "aerial"
 [[params.social]]
   medium = "Email"
   icon = "envelope-o"
-  link = "mailto:luke@thesweeneys.org"
+  link = "mailto:luke@abacus-consultants.org"
