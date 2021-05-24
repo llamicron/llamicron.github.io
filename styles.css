@@ -1,0 +1,55 @@
+:root {
+    /* Light Theme */
+    --background: #d5d6db;
+    --text-color: #343b58;
+    --accent: #5a4a78;
+
+
+
+    /* Dark Theme */
+    /*
+        These will be updated dynamically with JS,
+        just storing the values here
+
+        --background: #1a1b26;
+        --text-color: #cfc9c2;
+        --accent: #bb9af7;
+    */
+
+
+}
+
+body {
+    font-family: "Titillium Regular";
+    font-size: 18px;
+
+    background-color: var(--background);
+    color: var(--text-color);
+
+    transition: all 0.2s;
+}
+
+/* Setting the proper fonts */
+b { font-family: "Titillium Bold"; }
+i { font-family: "Titillium Italic"; }
+
+
+
+.container {
+    /* The golden ratio */
+    width: 61.8%;
+
+    /* Center it */
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+
+h1 {
+    width: max-content;
+    border-bottom: 4px solid var(--accent);
+}
