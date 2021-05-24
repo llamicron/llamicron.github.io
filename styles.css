@@ -1,27 +1,6 @@
-:root {
-    /* Light Theme */
-    --background: #d5d6db;
-    --text-color: #343b58;
-    --accent: #5a4a78;
-
-
-
-    /* Dark Theme */
-    /*
-        These will be updated dynamically with JS,
-        just storing the values here
-
-        --background: #1a1b26;
-        --text-color: #cfc9c2;
-        --accent: #bb9af7;
-    */
-
-
-}
-
 body {
-    font-family: "Titillium Regular";
-    font-size: 18px;
+    font-family: "Titillium Light";
+    font-size: 20px;
 
     background-color: var(--background);
     color: var(--text-color);
@@ -30,11 +9,24 @@ body {
 }
 
 /* Setting the proper fonts */
-b { font-family: "Titillium Bold"; }
+b { font-family: "Titillium SemiBold"; }
 i { font-family: "Titillium Italic"; }
+a {
+    color: var(--accent);
+}
 
 
+/* Highlight color */
+::selection {
+  background: var(--selection); /* WebKit/Blink Browsers */
+  color: black;
+}
+::-moz-selection {
+  background: var(--selection); /* Gecko Browsers */
+}
 
+
+/* A basic contianer to shrink the content */
 .container {
     /* The golden ratio */
     width: 61.8%;
@@ -49,7 +41,59 @@ i { font-family: "Titillium Italic"; }
 }
 
 
+/* Heading Styles */
 h1 {
     width: max-content;
     border-bottom: 4px solid var(--accent);
+}
+h2 {
+    width: max-content;
+    border-bottom: 2px solid var(--accent);
+}
+h3 {
+    width: max-content;
+    border-bottom: 2px dashed var(--accent);
+}
+
+.lead {
+    display: inline;
+    font-size: 28px;
+    font-family: "Titillium Regular";
+    font-variant: small-caps;
+}
+
+.time {
+    display: flex;
+    float: right;
+    bottom: 0;
+    font-size: 24px;
+}
+
+/* Styles for the "lights" button that changes the theme */
+#lights {
+    width: max-content;
+    position: absolute;
+    left: 5;
+    top: 5;
+
+    font-family: "Titillium Light";
+    border-bottom: 1px dashed var(--accent);
+
+    cursor: pointer;
+}
+
+
+p {
+    font-family: "Titillium ExtraLight";
+}
+
+ul.skills {
+    padding: 0;
+}
+
+ul.skills li {
+    display: inline;
+    border: 2px dotted var(--pale);
+    padding: 2px 0.5em 2px 0.5em;
+    margin: 0px 0.5em 0px 0.5em;
 }

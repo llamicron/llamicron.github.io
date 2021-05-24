@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: "Titillium SemiBold";
+  src: url("TitilliumWeb-SemiBold.ttf");
+}
+
+@font-face {
   font-family: "Titillium Italic";
   src: url("TitilliumWeb-Italic.ttf");
 }
@@ -16,4 +21,9 @@
 @font-face {
   font-family: "Titillium Light";
   src: url("TitilliumWeb-Light.ttf");
+}
+
+@font-face {
+  font-family: "Titillium ExtraLight";
+  src: url("TitilliumWeb-ExtraLight.ttf");
 }
