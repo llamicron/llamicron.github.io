@@ -23,16 +23,8 @@
             <div class="lead">Junior in Software Engineering</div> &mdash; UT Arlington
             <div class="time">2019 &mdash; 2023</div>
         </div>
-    </div>
-
-
-    <div class="container">
-        <h1>Contact</h1>
-
-        <!-- <pre>luke@thesweeneys.org</pre>
-        <pre>(979) 383-9991</pre> -->
-        <pre><a href="https://www.linkedin.com/in/luke-s-294764108/">LinkedIn</a></pre>
-        <pre><a href="https://github.com/llamicron">Github</a></pre>
+        <br>
+        Contact information and my resume can be found on <a href="https://www.linkedin.com/in/luke-s-294764108/">LinkedIn</a>.
     </div>
 
     <div class="container">
@@ -76,7 +68,69 @@
 
         <p>I've worked on a few big projects over the years (and a lot of small ones)</p>
 
+        <div>
+            <div class="time">2017 &mdash; present</div>
+            <h2>The Navasota Brewing Project</h2>
+        </div>
 
+        <p>
+            My father David has been a homebrewer since the mid 90's. He hopes to open a local brewery
+            in our hometown this summer (2021). Back in 2017, he started adding some valves and sensors to his
+            brewing rig. This sparked a project between the two of us to build a modular Brewery Control System.  It involed me writing
+            low-level device drivers for the hardware we use (RS-485, ModBus RTU, etc.) as well as a web API and interface to control it all.
+            <br><br>
+            A project of this scale is a lot for 2 people; we've made a lot of progress, but it's far from done. We have an orginazation Github
+            (<a href="https://github.com/NavasotaBrewing">NavasotaBrewing</a>) that hosts all of our code.
+            <br><br>
+            The drivers and backed are written in <a href="https://www.rust-lang.org/">Rust</a>, and the front end is <a href="https://vuejs.org/">VueJS</a>.
+        </p>
+
+        <h3>Relevant Technology</h3>
+        <ul class="skills">
+            <li>Rust (inc. Async Rust)</li>
+            <li>VueJS</li>
+            <li>Web API</li>
+            <li>CLI apps</li>
+            <li>ModBus RTU</li>
+            <li>OMEGA Engineering instruments</li>
+        </ul>
+
+
+        <div>
+            <div class="time">2020</div>
+            <h2>Rubric</h2>
+        </div>
+
+        <p>
+            Another project due to my father... he teaches Project Management and DevOps at Texas A&M. His final exam had his students spinning up Microsoft
+            Azure VMs and doing some basic SysAdmin work in them. He needed a way to verify that all of his students performed some easily verfiable tasks
+            (installing Git and Python, changing environment variables, starting webservers, etc).
+            <br><br>
+            Due to the large number of students, checking each VM by hand was impractical. I wrote a Rust testing framework that could grade each students final
+            <i>as they worked</i>. They could run our program (written with Rubric) inside their VMs, where it would collect the relevant information about its
+            environment and send a report back to us. Because it had the grading criteria baked in, the students knew their grade every time they used it to evaluate
+            their VM. We got positive reception from the students, and grading 60+ finals took less than an hour.
+            <br><br>
+            We realized the potential of this project and I made it a bit more flexible. It, like most projects, is still under construction. We hope to use it again
+            in the coming semesters. See the <a href="https://github.com/llamicron/rubric">Github repository</a> for more details and some documentation.
+        </p>
+
+        <h3>Relevant Technology</h3>
+
+        <ul>
+            <li>Rust</li>
+            <li>HTTPS / Webservers</li>
+            <li>Linux systems</li>
+            <li>CLI apps</li>
+        </ul>
+
+        <h2>Where's My Pi?</h2>
+
+        <p>
+            This is a tiny project. I'm real tired of starting my Raspberry Pi with the intention of connecting over SSH, only to find the IP changed. I
+            really don't like having to dig out a monitor and keyboard just to run <code>ifconfig</code>. This is just a short Rust program that DMs the Pi's
+            IP address to me over Discord. This, and a few more tiny projects, on <a href="https://github.com/llamicron/wheres_my_pi">my Github</a>.
+        </p>
     </div>
 
     <script src="theme.js"></script>

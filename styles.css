@@ -47,10 +47,12 @@ h1 {
     border-bottom: 4px solid var(--accent);
 }
 h2 {
+    margin-top: 3em;
     width: max-content;
     border-bottom: 2px solid var(--accent);
 }
 h3 {
+    margin-top: 2em;
     width: max-content;
     border-bottom: 2px dashed var(--accent);
 }
@@ -87,13 +89,12 @@ p {
     font-family: "Titillium ExtraLight";
 }
 
-ul.skills {
-    padding: 0;
-}
-
-ul.skills li {
-    display: inline;
-    border: 2px dotted var(--pale);
-    padding: 2px 0.5em 2px 0.5em;
-    margin: 0px 0.5em 0px 0.5em;
+code {
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: var(--pale);
+    color: black;
+    padding: 4px;
+    margin-left: 5px;
+    margin-right: 3px;
 }
