@@ -4,6 +4,10 @@
         position: absolute;
         visibility: hidden;
     }
+
+    #lights {
+        font-size: 32px;
+    }
 }
 
 /* Expand containers to be 90% width on smaller screens */
@@ -12,5 +16,4 @@
         width: 90%;
     }
 }
-
 
