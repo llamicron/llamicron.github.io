@@ -1,5 +1,6 @@
 body {
-    font-family: "Titillium ExtraLight";
+    --font: "Titillium ExtraLight";
+    font-family: var(--font);
     font-size: 20px;
 
     background-color: var(--background);
@@ -43,18 +44,21 @@ a {
 
 /* Heading Styles */
 h1 {
-    width: max-content;
-    border-bottom: 4px solid var(--accent);
+    /* width: max-content; */
+    /* border-top-left-radius: 15px; */
+    border-top: 3px solid var(--accent);
+    border-left: 3px solid var(--accent);
+    padding-left: 10px;
 }
 h2 {
     margin-top: 3em;
     width: max-content;
-    border-bottom: 2px solid var(--accent);
+    border-bottom: 2px dashed var(--accent);
 }
 h3 {
     margin-top: 2em;
     width: max-content;
-    border-bottom: 2px dashed var(--accent);
+    /* border-bottom: 2px dotted var(--accent); */
 }
 
 .lead {

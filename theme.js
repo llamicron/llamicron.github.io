@@ -4,17 +4,20 @@
 // Defines the colors for the dark and light theme
 lightTheme = [
     ["--background", "#d5d6db"],
-    ["--text-color", "#343b58"],
+    ["--text-color", "#272c42"],
     ["--accent", "#5a4a78"],
     ["--pale", "#cfc9c2"],
-    ["--selection", "#a9b1d6"]
+    ["--selection", "#a9b1d6"],
+    ["--font", "Titillium Regular"]
+
 ];
 darkTheme = [
     ["--background", "#1a1b26"],
     ["--text-color", "#cfc9c2"],
     ["--accent", "#bb9af7"],
     ["--pale", "#cfc9c2"],
-    ["--selection", "#a9b1d6"]
+    ["--selection", "#a9b1d6"],
+    ["--font", "Titillium ExtraLight"]
 ];
 
 // Get a handle on the document styles.
