@@ -1,5 +1,5 @@
 /* Hide the timeline on smaller screens */
-@media (max-width: 768px) {
+@media (max-resolution: 1dppx) {
     .time {
         position: absolute;
         visibility: hidden;
@@ -7,6 +7,12 @@
 
     #lights {
         font-size: 32px;
+    }
+}
+@media (max-width: 768px) {
+    .time {
+        position: absolute;
+        visibility: hidden;
     }
 }
 
