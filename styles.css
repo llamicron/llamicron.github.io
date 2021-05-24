@@ -1,5 +1,5 @@
 body {
-    font-family: "Titillium Light";
+    font-family: "Titillium ExtraLight";
     font-size: 20px;
 
     background-color: var(--background);
@@ -78,7 +78,7 @@ h3 {
     left: 5;
     top: 5;
 
-    font-family: "Titillium Light";
+    font-family: "Titillium ExtraLight";
     border-bottom: 1px dashed var(--accent);
 
     cursor: pointer;
