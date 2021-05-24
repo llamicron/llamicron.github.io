@@ -1,0 +1,16 @@
+/* Hide the timeline on smaller screens */
+@media (max-width: 768px) {
+    .time {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+/* Expand containers to be 90% width on smaller screens */
+@media (max-width: 1130px) {
+    .container {
+        width: 90%;
+    }
+}
+
+

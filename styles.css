@@ -29,6 +29,7 @@ a {
 
 /* A basic contianer to shrink the content */
 .container {
+    transition: width 0.3s;
     /* The golden ratio */
     width: 61.8%;
 
